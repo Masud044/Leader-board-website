@@ -26,7 +26,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-right: 202px;
+    margin-right: 280px;
     margin-top: 15px;
    
   }
@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 202px;
+    margin-left: 280px;
     margin-top: 10px;
   }
   .header-img h1{
