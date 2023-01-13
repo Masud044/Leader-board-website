@@ -2,10 +2,65 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@500&display=swap');
 
   /* common style*/
+  *{
+    margin: 0;
+    padding: 0;
+  }
   body{
     font-family: 'Open Sans', sans-serif;
     background-color: #F3F1FF;;
 
+  }
+  /*header style*/
+  .header-right{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-items{
+     background-color: #562EFF;
+     height: 94px;
+     margin-bottom: 20px;
+
+  }
+  .header-name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 202px;
+    margin-top: 15px;
+   
+  }
+  .header-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 202px;
+    margin-top: 10px;
+  }
+  .header-img h1{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .header-name a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+
+  }
+  .header-name img{
+    width: 51px;
+    height: 51px;
+   
+  }
+  
+  .header-img img{
+    width: 40.42px;
+    height: 51px;
   }
 
 
@@ -135,6 +190,12 @@
     }
     .player,.blog{
         flex-direction: column;
+    }
+    .header-img, .header-name{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+
     }
     
     
